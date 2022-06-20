@@ -4,70 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Plantillas HTML</title>
+    <!-- Bulma CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-
 </head>
+
+    <!-- Header -->
 <header>
         <div class="columns">
             <div class="column has-text-centered">
-               <h1>Visita mi blog personal en donde puedes encontrar recursos y muchos articulos en programacion y desarrollo web</h1> 
+               <h1 class="has-text-warning">Visita mi blog personal en donde puedes encontrar recursos y muchos artículos en Programación y Desarrollo Web <a class="has-text-info" href="http://www.jafetbrito.com">Ir al Blog</a></h1> 
             </div>
         </div>
-
-    
 </header>
-<nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="http://www.jafetbrito.com">
+
+    <!--Navbar-->
+
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="http://www.jafetbrito.com">
         <img src="http://jafetbrito.com/wp-content/uploads/2022/06/cropped-Bree-Serif-32x32.png" width="50" height="28">
       </a>
-  
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-  
+
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">
-          Home
+        <a class="navbar-item has-text-white">
+          Inicio
         </a>
   
-        <a class="navbar-item">
-          Documentation
+        <a class="navbar-item has-text-white ">
+          Documentacion
         </a>
-  
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More
-          </a>
-  
-          <div class="navbar-dropdown">
-            <a class="navbar-item">
-              About
-            </a>
-            <a class="navbar-item">
-              Jobs
-            </a>
-            <a class="navbar-item">
-              Contact
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item">
-              Report an issue
-            </a>
-          </div>
-        </div>
-      </div>
-  
-      <div class="navbar-end">
+        <!--Este es un terrible bug en la linea 45 si alguien puede ayudar a resolverlo. Lo agradeceria mucho, en caso contrario que seas el yo del futuro. Entonces tienes que recordar que no puedo colocar los items del nav de la forma en la que me gustaria por lo cual agregue muchos espacios en blanco para que se colocara en el lugar que quiero, pero solo funciona en computadora. dado que en telefono.-->
+        <a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a><a class="navbar-item"></a>
+       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-primary" href="https://bulma.io">
+            <a class="button is-primary" href="tel://+527772007581">
               <strong>Contacto</strong>
             </a>
           </div>
@@ -75,34 +54,42 @@
       </div>
     </div>
   </nav>
-<body>
+
+  <!-- BODY -->
+
+<body class="has-background-black has-text-white is-family-code	">
+
+  
+    <!-- Contenedor principal-->
+
+    <div class="container">
     <section class="section">
         <div class="colums">
     <div class="container has-text-centered">
-      <h1 class="title">
+      <h1 class="title has-background-danger-dark has-text-white">
         Plantillas HTML
       </h1>
-      <p class="subtitle">
-        Diferentes plantillas en <strong>HTML</strong>!
+      <p class="subtitle has-text-white">
+        Diferentes plantillas en <strong class="has has-text-info">HTML</strong>!
       </p>
     </div>
+    </div>
   </section>
-
- 
     <div class="columns">
         <div class="column has-text-centered">
             <img class="is-inline-block" src="https://ih1.redbubble.net/image.1058193613.6435/st,small,507x507-pad,600x600,f8f8f8.u2.jpg" style="width: 150px;">
         </div>
     </div>
 
+    <!--LAS PLANTILLAS-->
 
-
-  <h4>Boostrap5</h4>
+  <h4 class="">Boostrap5</h4>
     <p>Nulla efficitur eleifend nisi, sit amet bibendum sapien fringilla ac. Mauris euismod metus a tellus laoreet, at elementum ex efficitur.</p>
     <pre>
   &lt;!DOCTYPE html&gt;
   &lt;html lang="en"&gt;
     &lt;head&gt;
+    <!---->
       &lt;title&gt;Hello World&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
@@ -112,5 +99,56 @@
   </pre>
     <p>Maecenas eleifend sollicitudin dui, faucibus sollicitudin augue cursus non. Ut finibus eleifend arcu ut vehicula. Mauris eu est maximus est porta condimentum in eu justo. Nulla id iaculis sapien.</p>
     
+    <div class="content">
+      <h1>Hello World</h1>
+      <p>Lorem ipsum<sup><a>[1]</a></sup> dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque. Sub<sub>script</sub> works as well!</p>
+
+
+
+
+
+
+
+
+
+      <!-- PRESENTACION -->
+
+      <div class="columns">
+        <div class="column">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Jafet Brito</p>
+              <p class="subtitle is-6">@JafetBrito28</p>
+            </div>
+          </div>
+     
+      
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+            <a href="#">#css</a> <a href="#">#responsive</a>
+            <br>
+            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+          </div>
+        </div>
+      </div>
+        </div>
+
+        <!--  FOOTER  -->
+
+
+
 </body>
 </html>
